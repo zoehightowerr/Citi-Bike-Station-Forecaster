@@ -130,7 +130,7 @@ CitiBike Station Predictor delivers precise hourly ridership forecasts for 1,000
 ```
 BikeFlow-Predictor/
 ├── data/
-│   ├── raw/                   # CSVs and weather archives
+│   ├── raw/                   # CSVs and weather archives- CSCs are not uploaded, download citibike data to replicate code
 │   ├── aggregated/            # Hourly Parquet files
 │   └── final_features.parquet # Ready-to-use training data
 ├── model/
